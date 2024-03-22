@@ -46808,7 +46808,7 @@ e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/DHqs7qw.p
 
 }
 
-if (quickstats[0] <= 268 && Dem == 12) { // Byrd placeholder - 0 war
+if (quickstats[0] <= 268 && Dem == 10) { // Byrd placeholder - 0 war
 e.pages.push(`<h3>Two Tactics of Social-Democracy in the Democratic Revolution</h3>
           <p>In a revolutionary period it is very difficult to keep abreast of events, which provide an astonishing amount of new material for an evaluation of the tactical slogans of revolutionary parties. The present pamphlet was written before the Odessa events.[1] We have already pointed out in the Proletary[4] (No. 9—“Revolution Teaches”)[2] that these events have forced even those Social-Democrats who created the “uprising-as-a-process” theory and who rejected propaganda for a provisional revolutionary government actually to pass over, or begin to pass over, to the side of their opponents. Revolution undoubtedly teaches with a rapidity and thoroughness which appear incredible in peaceful periods of political development. And, what is particularly important, it teaches not only the leaders, but the masses as well.</p>`)
 //e.image = ""

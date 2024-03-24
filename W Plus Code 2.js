@@ -47452,7 +47452,7 @@ const ads = [
 		
         // Dem nomination
 		if((e.noCounter == 17)){
-            if((Wars == 0) && (e.player_answers.includes(9242) || e.player_answers.includes(9251) || e.player_answers.includes(9260) || e.player_answers.includes(9269)) && e.player_answers.includes(9086) && (RummyGone == 0) && (Cred < 3)){ // Hart
+            if((Wars == 0) && (e.player_answers.includes(9021) || e.player_answers.includes(9278) || e.player_answers.includes(9287)) && e.player_answers.includes(9086) && (RummyGone == 1) && (Cred < 3)){ // Hart
                 switcheroo21();
 				Dem += 12;  
                 campaignTrail_temp.questions_json[17] = tunnel(13001);   
@@ -47809,6 +47809,9 @@ const ads = [
 			}
 			else if((Jingo < 2) && (RummyGone == 1) && (Cred < 3) && (e.noCounter == 12)){ //010
 				campaignTrail_temp.questions_json[12] = tunnel(9286);   
+			}
+			else if((Jingo < 2) && (RummyGone == 0) && (Cred < 3) && (e.noCounter == 12)){ //000
+				campaignTrail_temp.questions_json[12] = tunnel(9020);   
 			}
 		// Iraq War
 			if((ConRep >= 3) && (Jingo >= 2) && (Cred >= 1) && (e.noCounter == 13)){ 

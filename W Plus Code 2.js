@@ -17561,7 +17561,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 13002,
             "candidate": 77,
             "affected_candidate": 78,
-            "global_multiplier": 0.015
+            "global_multiplier": 0.005
         }
     },
     {
@@ -17571,7 +17571,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 13004,
             "candidate": 77,
             "affected_candidate": 78,
-            "global_multiplier": 0.01
+            "global_multiplier": 0.005
         }
     },
     {
@@ -17581,7 +17581,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 13006,
             "candidate": 77,
             "affected_candidate": 78,
-            "global_multiplier": 0.017
+            "global_multiplier": 0.01
         }
     },
     {
@@ -17591,7 +17591,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 13008,
             "candidate": 77,
             "affected_candidate": 78,
-            "global_multiplier": 0.02
+            "global_multiplier": 0.0075
         }
     },
     {
@@ -27112,7 +27112,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 13753,
         "fields": {
             "answer": 13121,
-            "issue": "27",
+            "issue": 27,
             "issue_score": 0.4,
             "issue_importance": 2
         }
@@ -27142,7 +27142,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 13758,
         "fields": {
             "answer": 13122,
-            "issue": "27",
+            "issue": 27,
             "issue_score": -0.2,
             "issue_importance": 1
         }
@@ -27162,7 +27162,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 13773,
         "fields": {
             "answer": 13128,
-            "issue": "27",
+            "issue": 27,
             "issue_score": -0.5,
             "issue_importance": 3
         }
@@ -27302,7 +27302,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 13814,
         "fields": {
             "answer": 13144,
-            "issue": "27",
+            "issue": 27,
             "issue_score": 0,
             "issue_importance": 1
         }
@@ -46963,7 +46963,6 @@ campaignTrail_temp.answer_feedback_json = [
     }
 ]
 
-
 campaignTrail_temp.jet_data = [{}
 ]
 let newAd = true;
@@ -47452,7 +47451,7 @@ const ads = [
 		
         // Dem nomination
 		if((e.noCounter == 17)){
-            if((Wars == 0) && (e.player_answers.includes(9021) || e.player_answers.includes(9278) || e.player_answers.includes(9287)) && e.player_answers.includes(9086) && (RummyGone == 1) && (Cred < 3)){ // Hart
+            if((Wars == 0) && (e.player_answers.includes(9021) || e.player_answers.includes(9278) || e.player_answers.includes(9287)) && e.player_answers.includes(9086) && (RummyGone == 1) ){ // Hart , removed a && (Cred < 4) , checking it out
                 switcheroo21();
 				Dem += 12;  
                 campaignTrail_temp.questions_json[17] = tunnel(13001);   

@@ -42367,7 +42367,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 9014,
             "candidate": 77,
-            "answer_feedback": "Powell gives a PowerPoint presentation to the UNSC, holding up a model vial of weaponized anthrax and the other intel you’ve spent months fabricating. The presentation doesn’t change the opinion of permanent members, but it does harden the UN’s position toward Iraq and lets liberals pretend you at least tried to get UN authorization."
+            "answer_feedback": "Powell gives a PowerPoint presentation to the UNSC, holding up a model vial of weaponized anthrax and the other intel you’ve spent months fabricating. At outraged Russia vetoes your resolution, but several non-permanent members harden their position to Iraq. It also lets liberals pretend you at least tried to get UN authorization."
         }
     },
     {
@@ -42952,7 +42952,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 9235,
             "candidate": 77,
-            "answer_feedback": "Powell gives a PowerPoint presentation to the UNSC, holding up a model vial of weaponized anthrax and the other intel you’ve spent months fabricating. The presentation doesn’t change the opinion of permanent members, but it does harden the UN’s position toward Iraq and lets liberals pretend you at least tried to get UN authorization."
+            "answer_feedback": "Powell gives a PowerPoint presentation to the UNSC, holding up a model vial of weaponized anthrax and the other intel you’ve spent months fabricating. At outraged Russia vetoes your resolution, but several non-permanent members harden their position to Iraq. It also lets liberals pretend you at least tried to get UN authorization."
         }
     },
     {
@@ -48573,7 +48573,7 @@ const ads = [
 				Dem += 12;  
                 campaignTrail_temp.questions_json[17] = tunnel(13001);   
             }
-            else if((e.player_answers.includes(8977) || e.player_answers.includes(9115)) && (Wars == 0) && (Cred >= 3) && (Jingo >= 3)){ // Clark
+            else if((e.player_answers.includes(8977) || e.player_answers.includes(9115)) && (e.player_answers.includes(9235) || e.player_answers.includes(9014)) && (Wars == 0) && (Jingo >= 3)){ // Clark
                 switcheroo20();
 				Dem += 11;  
                 campaignTrail_temp.questions_json[17] = tunnel(13028);   

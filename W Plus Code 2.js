@@ -25933,8 +25933,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 12883,
             "issue": 31,
-            "issue_score": 1,
-            "issue_importance": 3
+            "issue_score": 0.4,
+            "issue_importance": 2
         }
     },
     {
@@ -25943,8 +25943,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 12883,
             "issue": 29,
-            "issue_score": -1,
-            "issue_importance": 3
+            "issue_score": -0.4,
+            "issue_importance": 2
         }
     },
     {
@@ -26123,7 +26123,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 12924,
             "issue": 28,
-            "issue_score": -1,
+            "issue_score": -0.4,
             "issue_importance": 1
         }
     },
@@ -26133,7 +26133,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 12924,
             "issue": 31,
-            "issue_score": -0.8,
+            "issue_score": -0.2,
             "issue_importance": 2
         }
     },
@@ -26144,7 +26144,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 12953,
             "issue": 29,
             "issue_score": -0.6,
-            "issue_importance": 4
+            "issue_importance": 2
         }
     },
     {
@@ -26153,8 +26153,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 12953,
             "issue": 28,
-            "issue_score": -0.8,
-            "issue_importance": 3
+            "issue_score": -0.3,
+            "issue_importance": 2
         }
     },
     {
@@ -26163,8 +26163,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 12953,
             "issue": 31,
-            "issue_score": -0.6,
-            "issue_importance": 3
+            "issue_score": -0.2,
+            "issue_importance": 1
         }
     },
     {
@@ -46963,6 +46963,7 @@ campaignTrail_temp.answer_feedback_json = [
     }
 ]
 
+
 campaignTrail_temp.jet_data = [{}
 ]
 let newAd = true;
@@ -47741,10 +47742,10 @@ const ads = [
 			if(Denny == 1 && ConRep > 0 && (e.noCounter == 5)){
 				campaignTrail_temp.questions_json[5] = tunnel(12880);   
 			}
-			if(Denny == 1 && ConRep == 0 && (e.noCounter == 5)){
+			else if(Denny == 1 && ConRep == 0 && (e.noCounter == 5)){
 				campaignTrail_temp.questions_json[5] = tunnel(12910);   
 			}
-			if(Denny == 0 && (e.noCounter == 5)){
+			else if(Denny == 0 && (e.noCounter == 5)){
 				campaignTrail_temp.questions_json[5] = tunnel(12939);   
 			}
 		// Social Security Reform	

@@ -47353,6 +47353,7 @@ const ads = [
         if(ans == 9001 || ans == 12201 || ans == 12218 || ans == 12235 ){
             Jingo += 1;
             Cred += 1;
+            ConRep += 1;
         }
         if(ans == 9242 ){
             Wins += 1;
